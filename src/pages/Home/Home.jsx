@@ -178,7 +178,7 @@ function Home() {
                 </svg>
               </div>
               <h1 className='text-2xl lg:text-3xl font-bold dark:text-white px-3'>
-                Trending Posts on CircleIt
+                Trending Posts on HealXYZ
               </h1>
             </div>
             <div className='mt-4'>

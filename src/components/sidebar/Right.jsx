@@ -58,9 +58,9 @@ function SidebarRight() {
       <div className='flex flex-col md:w-96 md:ml-6 secondaryBg border secondaryBorder rounded-md secondaryTextColor py-4 items-start justify-start'>
         <div className='flex-1 w-full flex flex-col'>
           <div className='flex items-center space-x-2 px-4 text-xl font-bold mb-4 pb-4 border-b secondaryBorder dark:text-white w-full '>
-            <h3 className='text-lg'>Top Daily Diamonded Creators</h3>
+            <h3 className='text-lg'>Top Daily Crystal Creators</h3>
             <Tippy
-              content='Creators on CircleIt can receive direct tippings in the form of Diamonds. Top Daily Diamonded Creators are the creators who received the most Diamonds in the last 24 hours.'
+              content='Healrs on HealXYZ can receive direct tippings in the form of Crystals. Top Daily Crystals Healers are the healers who received the most Crystals in the last 24 hours.'
               placement='bottom'>
               <span>
                 <BiQuestionMark

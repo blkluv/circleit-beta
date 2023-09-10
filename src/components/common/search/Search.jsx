@@ -53,7 +53,7 @@ function Search() {
                 <div className='flex flex-row w-[700px] items-center relative'>
                     <input
                         type='text'
-                        placeholder='Find circle'
+                        placeholder='Find tribe'
                         className='search secondaryBg rounded-full px-4 py-2 w-full outline-none focus:shadow transition delay-50 ring-1 pl-12'
                         onChange={(e) => setQuery(e.target.value)}
                         value={query}
