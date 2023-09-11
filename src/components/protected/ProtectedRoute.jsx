@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-props-no-spreading */
 import React from 'react'
 import { Navigate } from 'react-router-dom';
 import useApp from '../../store/app';

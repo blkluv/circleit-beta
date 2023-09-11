@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-props-no-spreading */
 import React from 'react'
 import { BsChevronDown } from 'react-icons/bs';
 import { DefaultLayout } from '../../components/layouts'

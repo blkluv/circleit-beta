@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-props-no-spreading */
 import Deso from 'deso-protocol';
 import React from 'react'
 import { BsSearch } from 'react-icons/bs'

@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-props-no-spreading */
 import React from 'react'
 import { parseNotification } from '../../utils/Notifications'
 import { Link } from 'react-router-dom';
