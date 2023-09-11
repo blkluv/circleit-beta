@@ -219,17 +219,17 @@ function Following() {
         <div className='relative text-4xl md:py-10 font-bold text-center dark:text-white sm:text-4xl lg:text-5xl leading-normal rounded-full z-10'>
           <span className='brandGradientBg blur-2xl filter opacity-10 w-full h-full absolute inset-0 rounded-full'></span>
           <span className='md:px-5'>
-            Get paid for{" "}
+            Heal®️s get paid for{" "}
             <span className='text-transparent bg-clip-text brandGradientBg'>
-              Creating
+              Heal🇳 ❌ ✌🏻
             </span>{" "}
             and{" "}
             <span className='text-transparent bg-clip-text brandGradientBg'>
-              Contributing
+            ⚡
             </span>{" "}
-            to{" "}
+            in{" "}
             <span className='text-transparent bg-clip-text brandGradientBg'>
-              Communities
+              Tribe circles
             </span>
           </span>
         </div>
