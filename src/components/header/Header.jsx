@@ -120,7 +120,7 @@ function Header() {
               <Link to='/'>
                 <div className='relative text-4xl font-bold dark:text-white sm:text-4xl lg:text-5xl leading-none rounded-full z-10'>
                   {/* <span className="brandGradientBg blur-2xl filter opacity-40 dark:opacity-30 w-full h-full absolute inset-0 rounded-full"></span> */}
-                  <img src={logoPng} className='h-10' alt='Circleit Logo'></img>
+                  <img src={logoPng} className='h-10' alt='HealXYZ Logo'></img>
                 </div>
               </Link>
             </div>
