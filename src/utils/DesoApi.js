@@ -338,7 +338,7 @@ class DesoApi {
         ImageURLs: ImageSend,
       },
       PostExtraData: {
-        App: "CircleIt",
+        App: "HealXYZ",
         EmbedVideoURL: link,
       },
     };

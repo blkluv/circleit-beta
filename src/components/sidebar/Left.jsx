@@ -46,7 +46,7 @@ function SidebarLeft({ rootRef }) {
         <div className='flex flex-row -mt-2 items-center'>
           <Link to='/'>
             <div className='relative text-4xl font-bold dark:text-white sm:text-4xl lg:text-5xl leading-none rounded-full z-10'>
-              <img src={logo} className='h-14' alt='Circleit Logo'></img>
+              <img src={logo} className='h-14' alt='HealXYZ Logo'></img>
             </div>
           </Link>
         </div>

@@ -37,7 +37,7 @@ function BraveBrowserModal({ showModal, setShowModal, loginWithDeso }) {
                                         Brave Browser Detected
                                     </Dialog.Title>
                                     <div className="mt-4 px-6">
-                                        <p className="primaryTextColor">To continue using CircleIt on brave, Please disable Brave Shields</p>
+                                        <p className="primaryTextColor">To continue using HealXYZ on brave, Please disable Brave Shields</p>
                                     </div>
 
                                     <div className="mt-6 flex justify-end space-x-4 py-3 px-6 secondaryBg">

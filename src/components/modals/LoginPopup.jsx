@@ -34,11 +34,11 @@ function LoginPopup({ showLoginPopup, setShowLoginPopup, loginWithDeso }) {
                   <Dialog.Title
                     as='h3'
                     className='text-lg py-4  px-6 font-semibold leading-6 border-b primaryBorder primaryTextColor'>
-                    Join CircleIt using existing account or create new Account.
+                    Join HealXYZ using existing account or create new Account.
                   </Dialog.Title>
                   <div className='mt-4 px-6'>
                     <p className='primaryTextColor'>
-                      Your Profile on CircleIt is a digital Identity accessible
+                      Your Profile on HealXYZ is a digital Identity accessible
                       only by you. Make sure you always save your account's
                       Secret phrase when you create new account. There is no way to recover or revoke your
                       secret phrase.

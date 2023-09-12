@@ -16,7 +16,7 @@ function CreatePostModal({showModal, setShowModal, circle}) {
     if (isPosting) return;
     setIsPosting(true);
     try {
-      let finalPostBody = `${postBody}\n\nPosted on @CircleIt in @${circleName}`;
+      let finalPostBody = `${postBody}\n\nPosted on @HealXYZ in @${circleName}`;
       let posterPublicKey =
         Object.keys(user).length === 0 ? "" : user.profile.PublicKeyBase58Check;
       const res = await deso.newPost(posterPublicKey, finalPostBody);

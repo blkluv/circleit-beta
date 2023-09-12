@@ -61,10 +61,10 @@ function CommentCard({
     }
 
     if (comment.Body && comment.ProfileEntryResponse) {
-      let body1 = comment.Body.replace(`Posted on @CircleIt in @${circle}`, "");
+      let body1 = comment.Body.replace(`Posted on @HealXYZ in @${circle}`, "");
       let body2 = body1.replace(`Posted on @${circle}`, "");
       let body3 = body2.replace(
-        `Posted on @CircleIt in @${comment.ProfileEntryResponse.Username}`,
+        `Posted on @HealXYZ in @${comment.ProfileEntryResponse.Username}`,
         ""
       );
       let body = body3.replace(`in @undefined`, "");

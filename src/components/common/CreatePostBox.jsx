@@ -281,8 +281,8 @@ export default function CreatePostBox({ circle }) {
       let payload = {
         Title: postTitle,
       };
-      let extraBody = `Posted on @CircleIt${
-        circle.Username !== "CircleIt" ? " in @" + circle.Username : ""
+      let extraBody = `Posted on @HealXYZ${
+        circle.Username !== "HealXYZ" ? " in @" + circle.Username : ""
       }`;
 
       if (enableDiamondGate) {
@@ -312,7 +312,7 @@ export default function CreatePostBox({ circle }) {
           );
           body = `This Post is Gated by ${diamondString} diamond${
             diamondLevelToGateWith > 1 ? "s" : ""
-          } using @CircleIt`;
+          } using @HealXYZ`;
 
           if (postTitle.trim().length > 0) {
             body += `\nTitle: ${postTitle}`;
@@ -350,7 +350,7 @@ export default function CreatePostBox({ circle }) {
           const EditpostRequest = {
             UpdaterPublicKeyBase58Check: user.profile.PublicKeyBase58Check,
             BodyObj: {
-              Body: `${body}\n\nView at circleit.app/circle/${circle.Username}/${createdPostHashHex}\n\n${extraBody}`,
+              Body: `${body}\n\nView at HealXYZ.com/circle/${circle.Username}/${createdPostHashHex}\n\n${extraBody}`,
               VideoURLs: [],
               ImageURLs: [],
             },
@@ -486,9 +486,9 @@ export default function CreatePostBox({ circle }) {
                           className=' dark:border-[#2d2d33] hover:dark:border-[#43434d] border-gray-200 hover:border-gray-200 active:border-none'
                         />
                         <div className='flex items-center space-x-1'>
-                          <p className='text-xs text-gray-400'>Diamond Gate</p>
+                          <p className='text-xs text-gray-400'>Crystal Gate</p>
                           <Tippy
-                            content='When you gate your content with diamonds, the viewer has to give diamond first in order to view your content. Title remains visible to everyone. You can set number of dimonds to gate with between 1-6'
+                            content='When you gate your content with crystals, the viewer has to give crystals first in order to view your content. Title remains visible to everyone. You can set number of dimonds to gate with between 1-6'
                             placement='bottom'>
                             <span>
                               <BiQuestionMark
