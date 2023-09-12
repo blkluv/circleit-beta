@@ -221,11 +221,11 @@ function Following() {
           <span className='md:px-5'>
             Heal®️s get paid to heal{" "}
             <span className='text-transparent bg-clip-text brandGradientBg'>
-            ❌ ✌️
+            X Y
             </span>{" "}
             and{" "}
             <span className='text-transparent bg-clip-text brandGradientBg'>
-            ⚡
+            Z
             </span>{" "}
             in{" "}
             <span className='text-transparent bg-clip-text brandGradientBg'>
