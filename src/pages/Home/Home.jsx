@@ -145,7 +145,7 @@ function Home() {
             <div className='relative text-4xl md:py-10 font-bold text-center dark:text-white sm:text-4xl lg:text-5xl leading-normal rounded-full z-10'>
               <span className='brandGradientBg blur-2xl filter opacity-10 w-full h-full absolute inset-0 rounded-full'></span>
               <span className='md:px-5'>
-                Heal®️s get paid to heal{" "}
+                Healrs get paid to heal{" "}
                 <span className='text-transparent bg-clip-text brandGradientBg'>
                 X Y
                 </span>{" "}
