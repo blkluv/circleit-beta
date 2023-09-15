@@ -5,7 +5,7 @@ import useApp from "../../store/app";
 import { useEffect, useState, useContext } from "react";
 import CreateCircleModal from "../modals/CreateCircle";
 import GlobalContext from "../../utils/GlobalContext/GlobalContext";
-import logo from "../../assets/logo.svg";
+import logo from '../../../src/assets/logo.svg';
 
 function SidebarLeft({ rootRef }) {
   const GlobalContextValue = useContext(GlobalContext);
