@@ -11,7 +11,7 @@ import { DESO_CONFIG } from "../../utils/Constants";
 import toast from "react-hot-toast";
 import { MobileSearch, Search } from "../common/search";
 import { isMobile } from "react-device-detect";
-import logoPng from "public/logoPng.png";
+import logoPng from "/logoPng.png";
 import LoginPopup from "../modals/LoginPopup";
 import { NotificationMenu } from "../notifications";
 import { FiCompass } from "react-icons/fi";
