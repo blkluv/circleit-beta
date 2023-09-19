@@ -47,7 +47,7 @@ const useApp = create(
                 }));
             },
         }),
-        { name: 'healxyz' }
+        { name: 'circleit' }
     )
 );
 export default useApp;

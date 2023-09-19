@@ -127,10 +127,9 @@ function CreateCircleModal({
                   </Dialog.Title>
                   <div className='mt-4 px-6'>
                     <p className=' primaryTextColor'>
-                      For a healing circle led by a Heal®️, Tribe Circles serve 
-                      as community groups where individuals can participate and 
-                      share content related to specific topics guided by the Heal®️ 
-                      of that casting circle.
+                      Community Circles are like groups where people can join
+                      and post about specific topic determined by the creator of
+                      the circle.
                       <br></br>
                       You can define your own set of rules, verification system
                       and monetization in your circle.

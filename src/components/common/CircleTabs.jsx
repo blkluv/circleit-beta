@@ -60,7 +60,7 @@ function CircleTabs({
                   ? `buttonBG text-white`
                   : `dark:bg-[#212126] dark:hover:bg-[#1D1D21] hover:bg-gray-300 bg-gray-200 dark:text-white`
               } font-semibold px-8 py-2 rounded-full`}>
-              Tribe Posts
+              Community Posts
             </button>
           </div>
         </>
@@ -115,7 +115,7 @@ function CircleTabs({
                       className={`${
                         activeTab === "community" ? "text-pink-600" : ""
                       } flex justify-between menu w-full px-4 py-2 `}>
-                      Tribe Posts
+                      Community Posts
                     </button>
                   )}
                 </Menu.Item>

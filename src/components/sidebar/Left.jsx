@@ -51,14 +51,14 @@ function SidebarLeft({ rootRef }) {
           </Link>
         </div>
         <div className='flex flex-col overflow-auto w-full pr-4 mt-4'>
-          <CircleList name='Top Tribes' list={defaultCircles} />
+          <CircleList name='Top Circles' list={defaultCircles} />
           <div className='divider'></div>
           {isLoggedIn ? (
             !isCircle ? (
               <button
                 onClick={() => setShowModal(!showModal)}
                 className='font-medium text-white px-6 py-4 leading-none w-full rounded-full buttonBG my-6'>
-                <span>Create a Tribe</span>
+                <span>Create a Circle</span>
               </button>
             ) : null
           ) : null}
@@ -72,7 +72,7 @@ function SidebarLeft({ rootRef }) {
         {circles && circles.length > 0 ? (
           <>
             <div className='divider'></div>
-            <CircleList name='New Tribes' list={circles} />
+            <CircleList name='New Circles' list={circles} />
           </>
         ) : null}
       </div>

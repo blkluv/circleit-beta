@@ -80,7 +80,7 @@ const DiamondModal = ({
         setDiamonds(diamonds + value);
       } else {
         console.log(response);
-        toast.error(`Oops! This Amount Crystals Already Sent`);
+        toast.error(`Oops! This Amount Diamonds Already Sent`);
       }
     } catch (error) {
       console.log(error);
@@ -120,7 +120,7 @@ const DiamondModal = ({
                     <Dialog.Title
                       as='h3'
                       className='text-lg py-4 px-6 w-full font-semibold leading-6 primaryTextColor'>
-                      Send Crystals
+                      Send Diamonds
                     </Dialog.Title>
                     <button
                       className='relative inline-block disabled:opacity-50 rounded-full group px-5 md:py-2 py-1.5 text-sm md:rounded-full'

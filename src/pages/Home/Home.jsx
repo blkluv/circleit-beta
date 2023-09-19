@@ -145,17 +145,17 @@ function Home() {
             <div className='relative text-4xl md:py-10 font-bold text-center dark:text-white sm:text-4xl lg:text-5xl leading-normal rounded-full z-10'>
               <span className='brandGradientBg blur-2xl filter opacity-10 w-full h-full absolute inset-0 rounded-full'></span>
               <span className='md:px-5'>
-                  Heal®️s get paid for{" "}
+                Get paid for{" "}
                 <span className='text-transparent bg-clip-text brandGradientBg'>
-                  Heal🇳 ❌ ✌🏻
+                  Creating
                 </span>{" "}
                 and{" "}
                 <span className='text-transparent bg-clip-text brandGradientBg'>
-                ⚡
+                  Contributing
                 </span>{" "}
                 to{" "}
                 <span className='text-transparent bg-clip-text brandGradientBg'>
-                 Tribe circles
+                  Communities
                 </span>
               </span>
             </div>
@@ -178,7 +178,7 @@ function Home() {
                 </svg>
               </div>
               <h1 className='text-2xl lg:text-3xl font-bold dark:text-white px-3'>
-                Trending Posts on HealXYZ
+                Trending Posts on CircleIt
               </h1>
             </div>
             <div className='mt-4'>

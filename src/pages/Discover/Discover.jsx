@@ -149,7 +149,7 @@ export default function Discover() {
               Discover and Join
               <span className='text-transparent bg-clip-text brandGradientBg'>
                 {" "}
-                Tribe Circles
+                Community Circles
               </span>
             </span>
           </div>

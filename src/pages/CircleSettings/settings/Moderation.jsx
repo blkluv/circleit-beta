@@ -241,7 +241,7 @@ export default function Moderation({ user, sidebar }) {
           <p className='font-semibold mb-2 primaryTextColor'>Post Tags</p>
           <input
             type='text'
-            placeholder='Add tags for posts in tribe'
+            placeholder='Add tags for posts in community'
             value={currentTagWord}
             onChange={handleTagChange}
             onKeyDown={handleTagChange}

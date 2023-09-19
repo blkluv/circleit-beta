@@ -1,4 +1,3 @@
-/* eslint-disable react/jsx-props-no-spreading */
 import Deso from 'deso-protocol';
 import React from 'react'
 import { BsSearch } from 'react-icons/bs'
@@ -54,7 +53,7 @@ function Search() {
                 <div className='flex flex-row w-[700px] items-center relative'>
                     <input
                         type='text'
-                        placeholder='Find tribe'
+                        placeholder='Find circle'
                         className='search secondaryBg rounded-full px-4 py-2 w-full outline-none focus:shadow transition delay-50 ring-1 pl-12'
                         onChange={(e) => setQuery(e.target.value)}
                         value={query}
