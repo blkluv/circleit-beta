@@ -1,6 +1,6 @@
 {
-  "short_name": "CircleIt",
-  "name": "CircleIt",
+  "short_name": "HealXYZ",
+  "name": "HealXYZ",
   "icons": [
     {
       "src": "favicon.svg",
@@ -18,7 +18,7 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": ".",
+  "start_url": "https://healxyz.com/",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"

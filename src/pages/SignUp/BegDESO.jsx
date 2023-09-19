@@ -47,7 +47,7 @@ export default function BegDESO({ publicKey, desoObj }) {
   return (
     <div>
       <h1 className='text-2xl font-bold text-center mt-12 sm:mt-6'>
-        To Create your Digital Identity Profile on CircleIt, you need at least{" "}
+        To Create your Digital Identity Profile on HealXYZ, you need at least{" "}
         {MIN_DESO_TO_CREATE_PROFILE} $DESO tokens.
       </h1>
       <p className='primaryTextColor text-center mt-4'>
@@ -64,7 +64,7 @@ export default function BegDESO({ publicKey, desoObj }) {
       </button>
       {isBeggin && (
         <p className='primaryTextColor text-center mt-4'>
-          After verification, you will be redirected to CircleIt. Please wait...
+          After verification, you will be redirected to HealXYZ. Please wait...
         </p>
       )}
       <p className='primaryTextColor text-center mt-4'></p>

@@ -91,7 +91,7 @@ const ShareModal = ({ rootRef, show, setShowShare, post, autoClose = true }) => 
                                                 <FacebookShareButton
                                                     url={`${APP.URL}/${post.PostHashHex}`}
                                                     quote={`${post.Body ? truncate(post.Body, 200) : APP.Description} via ${APP.Twitter}`}
-                                                    hashtag={'#CircleIt'}
+                                                    hashtag={'#HealXYZ'}
                                                 >
                                                     <FacebookIcon size={44} round />
                                                 </FacebookShareButton>

@@ -5,7 +5,7 @@ import useApp from "../../store/app";
 import { useEffect, useState, useContext } from "react";
 import CreateCircleModal from "../modals/CreateCircle";
 import GlobalContext from "../../utils/GlobalContext/GlobalContext";
-import logo from "../../assets/logo.svg";
+import logo from '../../../src/assets/logo.svg';
 
 function SidebarLeft({ rootRef }) {
   const GlobalContextValue = useContext(GlobalContext);
@@ -46,7 +46,7 @@ function SidebarLeft({ rootRef }) {
         <div className='flex flex-row -mt-2 items-center'>
           <Link to='/'>
             <div className='relative text-4xl font-bold dark:text-white sm:text-4xl lg:text-5xl leading-none rounded-full z-10'>
-              <img src={logo} className='h-14' alt='Circleit Logo'></img>
+              <img src={logo} className='h-14' alt='HealXYZ Logo'></img>
             </div>
           </Link>
         </div>

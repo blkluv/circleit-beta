@@ -61,7 +61,7 @@ export default function SignUp() {
             <span className='md:px-5'>
               Welcome to{" "}
               <span className='text-transparent bg-clip-text brandGradientBg'>
-                CircleIt
+                HealXYZ
               </span>{" "}
             </span>
           )}

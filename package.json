@@ -1,5 +1,5 @@
 {
-  "name": "circleit",
+  "name": "healxyz",
   "version": "0.0.1",
   "private": false,
   "dependencies": {
@@ -71,5 +71,15 @@
   },
   "devDependencies": {
     "tailwindcss": "^3.2.1"
+  },
+  "babel": {
+    "plugins": [
+      [
+        "@babel/plugin-transform-react-jsx",
+        {
+          "throwIfNamespace": false
+        }
+      ]
+    ]
   }
 }

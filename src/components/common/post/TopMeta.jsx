@@ -76,7 +76,7 @@ function PostTopMeta({
     }
     const d = new Date();
     let time = d.getTime();
-    const fileName = 'Circleit.app__' + time;
+    const fileName = 'HealXYZ.com__' + time;
 
     setTimeout(() =>
       toJpeg(rootRef?.current, { cacheBust: true, pixelRatio: 3 }).then((dataUrl) => {

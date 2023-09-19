@@ -60,7 +60,7 @@ function SidebarRight() {
           <div className='flex items-center space-x-2 px-4 text-xl font-bold mb-4 pb-4 border-b secondaryBorder dark:text-white w-full '>
             <h3 className='text-lg'>Top Daily Diamonded Creators</h3>
             <Tippy
-              content='Creators on CircleIt can receive direct tippings in the form of Diamonds. Top Daily Diamonded Creators are the creators who received the most Diamonds in the last 24 hours.'
+              content='Creators on HealXYZ can receive direct tippings in the form of Crystals. Top Daily Diamonded Creators are the creators who received the most Crystals in the last 24 hours.'
               placement='bottom'>
               <span>
                 <BiQuestionMark

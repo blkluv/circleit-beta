@@ -215,7 +215,7 @@ function Post() {
                             !decryptedData &&
                             !loadingDecrypted && (
                               <div className='w-full lightText break-words flex justify-center items-center flex-col'>
-                                <span>{`This Content is Gated with ${diamondLevelGatedWith} Diamonds `}</span>
+                                <span>{`This Content is Gated with ${diamondLevelGatedWith} Crystals `}</span>
                                 <button
                                   onClick={loadGatedContent}
                                   className={`buttonBG dark:text-white flex items-center px-8 py-2 rounded-full`}>
